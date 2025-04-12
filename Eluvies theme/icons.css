@@ -1,1 +1,11 @@
+@font-face {
+  font-family: "eluvies";
+  src:  url("https://raw.githubusercontent.com/Eluvies/MAL-Designs/refs/heads/main/Eluvies%20theme/Fonts/eluvies.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
 
+#list-container .stats {
+  display: none !important;
+}
