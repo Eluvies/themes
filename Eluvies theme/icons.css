@@ -5,7 +5,3 @@
   font-display: block;
   src:  url(https://raw.githubusercontent.com/Eluvies/MAL-Designs/refs/heads/main/Eluvies%20theme/Fonts/eluvies.ttf);
 }
-
-#list-container .stats {
-  display: none !important;
-}
