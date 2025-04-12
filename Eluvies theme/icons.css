@@ -6,6 +6,6 @@
   font-display: block;
 }
 
-.stats {
+#list-container .stats {
   display: none !important;
 }
