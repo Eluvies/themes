@@ -1,0 +1,1124 @@
+#advanced-options {
+    position: unset;
+    top: unset;
+    left: unset;
+    right: unset;
+    background-color: unset;
+    display: unset;
+    width: unset;
+    margin: unset;
+    padding: unset;
+    border: unset;
+    -moz-box-shadow: unset;
+    -webkit-box-shadow: unset;
+    -o-box-shadow: unset;
+    -ms-box-shadow: unset;
+    box-shadow: unset;
+    color: unset;
+    text-align: unset;
+    font-family: unset;
+    z-index: unset;
+}
+
+#advanced-options .advanced-options-header {
+    width: unset;
+    margin: unset;
+    padding-bottom: unset;
+    border-bottom: unset;
+    font-size: unset;
+}
+
+#advanced-options .advanced-options-header .description {
+    font-size: unset;
+    font-weight: unset;
+    margin-left: unset;
+}
+
+#advanced-options select {
+    -ms-appearance: unset;
+    -webkit-appearance: unset;
+    -moz-appearance: unset;
+    appearance: unset;
+    background-image: unset;
+    background-repeat: unset;
+    background-position: unset;
+    background-size: unset;
+    background-color: unset;
+    display: unset;
+    height: unset;
+    padding: unset;
+    padding-right: unset;
+    border: unset;
+    border-radius: unset;
+    font-size: unset;
+}
+
+#advanced-options select::-ms-expand {
+    display: unset;
+}
+
+#advanced-options select:disabled {
+    background-image: unset;
+    color: unset;
+}
+
+#advanced-options input[type=text] {
+    padding: unset;
+    border: unset;
+}
+
+#advanced-options input:focus {
+    outline: unset;
+}
+
+#advanced-options .sort-widget {
+    margin: unset;
+    padding: unset;
+    width: unset;
+}
+
+#advanced-options .sort-widget:last-of-type {
+    padding-bottom: unset;
+}
+
+#advanced-options .sort-widget select {
+    width: unset;
+    margin-right: unset;
+}
+
+#advanced-options .sort-widget input[type=radio] {
+    display: unset;
+}
+
+#advanced-options .sort-widget input[type=radio]+label {
+    background-color: unset;
+    display: unset;
+    width: unset;
+    padding: unset;
+    border: unset;
+    border-radius: unset;
+    color: unset;
+    font-size: unset;
+    text-align: unset;
+    cursor: unset;
+}
+
+#advanced-options .sort-widget input[type=radio]:checked+label {
+    background-color: unset;
+    border: unset;
+    color: unset;
+}
+
+#advanced-options .sort-widget input[type=radio]:disabled+label {
+    border: unset;
+    color: unset;
+}
+
+#advanced-options .sort-widget input[type=radio]:checked:disabled+label {
+    background-color: unset;
+    border: unset;
+    color: unset;
+}
+
+#advanced-options .filter-widget {
+    margin: unset;
+    padding: unset;
+    width: unset;
+}
+
+#advanced-options .filter-widget select {
+    margin-right: unset;
+    font-size: unset;
+}
+
+#advanced-options .filter-widget.title input[type=text] {
+    width: unset;
+}
+
+#advanced-options .filter-widget.airing-status select,
+#advanced-options .filter-widget.publishing-status select {
+    width: unset;
+}
+
+#advanced-options .filter-widget.producer select,
+#advanced-options .filter-widget.magazine select {
+    width: unset;
+}
+
+#advanced-options .filter-widget.aired-date select.year,
+#advanced-options .filter-widget.published-date select.year {
+    width: unset;
+}
+
+#advanced-options .filter-widget.aired-date select.month,
+#advanced-options .filter-widget.published-date select.month,
+#advanced-options .filter-widget.aired-date select.day,
+#advanced-options .filter-widget.published-date select.day {
+    width: unset;
+}
+
+#advanced-options .filter-widget.aired-date .text,
+#advanced-options .filter-widget.published-date .text {
+    display: unset;
+    margin-right: unset;
+    font-size: unset;
+}
+
+#advanced-options .filter-widget.aired-season select.year {
+    width: unset;
+}
+
+#advanced-options .filter-widget.aired-season select.season {
+    width: unset;
+}
+
+#advanced-options .sort-widget .widget-header,
+#advanced-options .filter-widget .widget-header {
+    display: unset;
+    width: unset;
+    font-size: unset;
+    font-family: unset;
+}
+
+#advanced-options .sort-widget:last-of-type,
+#advanced-options .filter-widget:last-of-type {
+    padding-bottom: unset;
+}
+
+#advanced-options .advanced-options-button {
+    width: unset;
+    margin: unset;
+    padding: unset;
+    border-top: unset;
+    text-align: unset;
+}
+
+#advanced-options .btn-apply,
+#advanced-options .btn-clear {
+    background-color: unset;
+    display: unset;
+    width: unset;
+    margin: unset;
+    padding: unset;
+    border-radius: unset;
+    font-size: unset;
+    color: unset;
+    text-align: unset;
+    -moz-transition-property: unset;
+    -o-transition-property: unset;
+    -webkit-transition-property: unset;
+    transition-property: unset;
+    -moz-transition-duration: unset;
+    -o-transition-duration: unset;
+    -webkit-transition-duration: unset;
+    transition-duration: unset;
+    -moz-transition-timing-function: unset;
+    -o-transition-timing-function: unset;
+    -webkit-transition-timing-function: unset;
+    transition-timing-function: unset;
+}
+
+#advanced-options .btn-apply:hover,
+#advanced-options .btn-clear:hover {
+    background-color: unset;
+}
+
+
+body {
+    margin: unset;
+    text-align: unset;
+    font-family: unset;
+    font-size: unset;
+}
+
+td {
+    line-height: unset;
+}
+
+a {
+    color: unset;
+    text-decoration: unset;
+}
+
+#footer-block {
+    padding: unset;
+    background-color: unset;
+    color: unset;
+    font-family: unset;
+}
+
+#copyright {
+    font-size: unset;
+    color: unset;
+    padding-top: unset;
+    text-align: unset;
+}
+
+#recaptcha-terms {
+    font-size: unset;
+    margin-top: unset;
+    color: unset;
+}
+
+#recaptcha-terms a {
+    color: unset;
+}
+
+#recaptcha-terms a:hover {
+    color: unset;
+}
+
+.grecaptcha-badge {
+    visibility: unset;
+}
+
+.header a {
+    font-weight: unset;
+    color: unset;
+}
+
+.header a:hover {
+    text-decoration: unset;
+}
+
+.header {
+    position: unset;
+    color: unset;
+    display: unset;
+    width: unset;
+    height: unset;
+    margin: unset;
+}
+
+.header .header-title {
+    position: unset;
+    top: unset;
+    background-image: unset;
+    background-position: unset;
+    background-repeat: unset;
+    background-size: unset;
+    display: unset;
+    width: unset;
+    height: unset;
+    text-indent: unset;
+    overflow: unset;
+}
+
+.header .header-menu {
+    position: unset;
+    top: unset;
+    right: unset;
+    color: unset;
+}
+
+.header .header-menu.other {
+    top: unset;
+}
+
+.header .header-menu .btn-menu {
+    display: unset;
+    color: unset;
+    text-align: unset;
+    font-size: unset;
+}
+
+.header .header-menu .btn-menu>a {
+    color: unset;
+}
+
+.header .username {
+    font-weight: unset;
+}
+
+.header .header-menu .list-menu {
+    position: unset;
+    top: unset;
+    right: unset;
+    background-color: unset;
+    display: unset;
+    border: unset;
+    -moz-box-shadow: unset;
+    -webkit-box-shadow: unset;
+    box-shadow: unset;
+    z-index: unset;
+}
+
+.header .header-menu .list-menu .icon-menu {
+    display: unset;
+    width: unset;
+    height: unset;
+    color: unset;
+    font-size: unset;
+    font-weight: unset;
+    text-decoration: unset;
+    -moz-transition-property: unset;
+    -o-transition-property: unset;
+    -webkit-transition-property: unset;
+    transition-property: unset;
+    -moz-transition-duration: unset;
+    -o-transition-duration: unset;
+    -webkit-transition-duration: unset;
+    transition-duration: unset;
+    -moz-transition-timing-function: unset;
+    -o-transition-timing-function: unset;
+    -webkit-transition-timing-function: unset;
+    transition-timing-function: unset;
+}
+
+.header .header-info {
+    margin-top: unset;
+    margin-right: unset;
+    font-size: unset;
+    text-align: unset;
+    color: unset;
+}
+
+.header .header-info>a {
+    color: unset;
+}
+
+.header .header-menu .list-menu .icon-menu:hover {
+    background-color: unset;
+}
+
+.header .header-menu .list-menu .icon-menu svg.icon {
+    position: unset;
+    fill: unset;
+    left: unset;
+    top: unset;
+}
+
+.header .header-menu .list-menu .icon-menu .text {
+    position: unset;
+    left: unset;
+    top: unset;
+}
+
+.list-menu-float {
+    position: unset;
+    display: unset;
+    top: unset;
+    width: unset;
+    border: unset;
+    z-index: unset;
+}
+
+.list-menu-float .icon-menu {
+    position: unset;
+    background-color: unset;
+    display: unset;
+    width: unset;
+    height: unset;
+    opacity: unset;
+    -moz-transition-property: unset;
+    -o-transition-property: unset;
+    -webkit-transition-property: unset;
+    transition-property: unset;
+    -moz-transition-duration: unset;
+    -o-transition-duration: unset;
+    -webkit-transition-duration: unset;
+    transition-duration: unset;
+    -moz-transition-timing-function: unset;
+    -o-transition-timing-function: unset;
+    -webkit-transition-timing-function: unset;
+    transition-timing-function: unset;
+}
+
+.list-menu-float .icon-menu svg.icon {
+    position: unset;
+    fill: unset;
+}
+
+.list-menu-float .icon-menu:hover svg.icon {
+    position: unset;
+    fill: unset;
+}
+
+.list-menu-float .icon-menu.profile {
+    background-size: unset;
+}
+
+.list-menu-float .icon-menu.quick-add svg.icon-quick-add {
+    left: unset;
+    top: unset;
+}
+
+.list-menu-float .icon-menu.anime-list svg.icon-anime-list {
+    left: unset;
+    top: unset;
+}
+
+.list-menu-float .icon-menu.manga-list svg.icon-manga-list {
+    left: unset;
+    top: unset;
+}
+
+.list-menu-float .icon-menu.statistics svg.icon-statistics {
+    left: unset;
+    top: unset;
+}
+
+.list-menu-float .icon-menu.history svg.icon-history {
+    left: unset;
+    top: unset;
+}
+
+.list-menu-float .icon-menu.export svg.icon-export {
+    left: unset;
+    top: unset;
+}
+
+.list-menu-float .icon-menu.login svg.icon-login {
+    left: unset;
+    top: unset;
+}
+
+.list-menu-float .icon-menu.logout svg.icon-logout {
+    left: unset;
+    top: unset;
+}
+
+.list-menu-float .icon-menu.setting svg.icon-setting {
+    left: unset;
+    top: unset;
+}
+
+.list-menu-float .icon-menu .text {
+    position: unset;
+    top: unset;
+    left: unset;
+    width: unset;
+    display: unset;
+    color: unset;
+    font-size: unset;
+    font-family: unset;
+    text-align: unset;
+    vertical-align: unset;
+    overflow: unset;
+    white-space: unset;
+    opacity: unset;
+    -moz-transition-property: unset;
+    -o-transition-property: unset;
+    -webkit-transition-property: unset;
+    transition-property: unset;
+    -moz-transition-duration: unset;
+    -o-transition-duration: unset;
+    -webkit-transition-duration: unset;
+    transition-duration: unset;
+    -moz-transition-timing-function: unset;
+    -o-transition-timing-function: unset;
+    -webkit-transition-timing-function: unset;
+    transition-timing-function: unset;
+}
+
+.list-menu-float .icon-menu:not(.profile):hover {
+    background-color: unset;
+    width: unset;
+}
+
+.list-menu-float .icon-menu:hover .text {
+    width: unset;
+    opacity: unset;
+}
+
+.list-menu-float .icon-menu.setting .text {
+    top: unset;
+    width: unset;
+    height: unset;
+    opacity: unset;
+    -moz-transition-property: unset;
+    -o-transition-property: unset;
+    -webkit-transition-property: unset;
+    transition-property: unset;
+    -moz-transition-duration: unset;
+    -o-transition-duration: unset;
+    -webkit-transition-duration: unset;
+    transition-duration: unset;
+    -moz-transition-timing-function: unset;
+    -o-transition-timing-function: unset;
+    -webkit-transition-timing-function: unset;
+    transition-timing-function: unset;
+}
+
+.list-menu-float .icon-menu.setting:hover .text {
+    top: unset;
+    width: unset;
+    height: unset;
+    opacity: unset;
+}
+
+.list-menu-float .icon-menu.setting .text .link-list-setting,
+.list-menu-float .icon-menu.setting .text .link-style-setting {
+    display: unset;
+    opacity: unset;
+}
+
+.list-menu-float .icon-menu.setting:hover .text .link-list-setting,
+.list-menu-float .icon-menu.setting:hover .text .link-style-setting {
+    position: unset;
+    background-color: unset;
+    display: unset;
+    width: unset;
+    height: unset;
+    line-height: unset;
+    text-decoration: unset;
+    color: unset;
+    opacity: unset;
+}
+
+.list-menu-float .icon-menu.setting:hover .text .link-list-setting {
+    top: unset;
+}
+
+.list-menu-float .icon-menu.setting:hover .text .link-style-setting {
+    border-top: unset;
+    top: unset;
+}
+
+.list-container {
+    position: unset;
+    background-color: unset;
+    border: unset;
+    width: unset;
+    margin-bottom: unset;
+    margin-right: unset;
+    margin-left: unset;
+    text-align: unset;
+}
+
+.cover-block {
+    display: unset;
+    width: unset;
+    margin: unset;
+    text-align: unset;
+    vertical-align: unset;
+}
+
+.cover-block .image-container {
+    display: unset;
+    padding-top: unset;
+    width: unset;
+}
+
+.cover-block .image-container.hide {
+    display: unset;
+}
+
+.cover-block .image-container img {
+    max-width: unset;
+}
+
+.cover-block .image-container .btn-list-setting {
+    display: unset;
+}
+
+.cover-block .image-container:hover .btn-list-setting {
+    display: unset;
+    position: unset;
+    top: unset;
+    right: unset;
+    padding: unset;
+    border: unset;
+    font-size: unset;
+    color: unset;
+    font-family: unset;
+}
+
+.cover-block .image-container .btn-list-setting:hover {
+    position: unset;
+    top: unset;
+    right: unset;
+    background-color: unset;
+    padding: unset;
+    border: unset;
+    -moz-box-shadow: unset;
+    -webkit-box-shadow: unset;
+    -o-box-shadow: unset;
+    -ms-box-shadow: unset;
+    box-shadow: unset;
+    font-size: unset;
+    color: unset;
+    text-shadow: unset;
+}
+
+.cover-block .image-container .btn-list-setting .fa-camera {
+    font-size: unset;
+    -moz-text-shadow: unset;
+    -webkit-text-shadow: unset;
+    -o-text-shadow: unset;
+    -ms-text-shadow: unset;
+    text-shadow: unset;
+    -ms-filter: unset;
+}
+
+.cover-block .image-container .btn-list-setting .icon-plus-circle {
+    position: unset;
+    top: unset;
+    left: unset;
+    background-color: unset;
+    border-radius: unset;
+    -moz-box-shadow: unset;
+    -webkit-box-shadow: unset;
+    -o-box-shadow: unset;
+    -ms-box-shadow: unset;
+    box-shadow: unset;
+    font-size: unset;
+}
+
+.cover-block .image-container .btn-list-setting .text {
+    display: unset;
+}
+
+.cover-block .image-container .btn-list-setting:hover .text {
+    display: unset;
+    margin-left: unset;
+}
+
+.status-menu-container {
+    width: unset;
+    height: unset;
+    background-color: unset;
+    border-bottom: unset;
+    z-index: unset;
+}
+
+.status-menu-container.fixed {
+    position: unset;
+    display: unset;
+    top: unset;
+}
+
+.status-menu-container.fixed+div.list-block {
+    margin-top: unset;
+}
+
+.status-menu-container .status-menu {
+    display: unset;
+    margin: unset;
+    border-collapse: unset;
+    border-spacing: unset;
+}
+
+.status-menu-container .status-menu .status-button {
+    position: unset;
+    display: unset;
+    padding: unset;
+    margin: unset;
+    font-family: unset;
+    text-align: unset;
+    vertical-align: unset;
+    font-size: unset;
+    color: unset;
+}
+
+.status-menu-container .status-menu .status-button.on {
+    color: unset;
+    font-weight: unset;
+}
+
+.status-menu-container .status-menu .status-button:after {
+    position: unset;
+    bottom: unset;
+    left: unset;
+    background-color: unset;
+    display: unset;
+    width: unset;
+    height: unset;
+    content: unset;
+    opacity: unset;
+    -moz-transition-property: unset;
+    -o-transition-property: unset;
+    -webkit-transition-property: unset;
+    transition-property: unset;
+    -moz-transition-duration: unset;
+    -o-transition-duration: unset;
+    -webkit-transition-duration: unset;
+    transition-duration: unset;
+    -moz-transition-timing-function: unset;
+    -o-transition-timing-function: unset;
+    -webkit-transition-timing-function: unset;
+    transition-timing-function: unset;
+}
+
+.status-menu-container .status-menu .status-button.on:after,
+.status-menu .status-button:hover:after {
+    opacity: unset;
+}
+
+.status-menu-container .search-container {
+    position: unset;
+    right: unset;
+}
+
+.status-menu-container .search-container #search-button {
+    display: unset;
+    height: unset;
+    margin-top: unset;
+    color: unset;
+    font-size: unset;
+    vertical-align: unset;
+}
+
+.status-menu-container .search-container #search-box {
+    display: unset;
+    width: unset;
+    height: unset;
+    overflow: unset;
+    margin-top: unset;
+    -webkit-transition: unset;
+    -moz-transition: unset;
+    transition: unset;
+    -webkit-backface-visibility: unset;
+    vertical-align: unset;
+}
+
+.status-menu-container .search-container #search-box.open {
+    display: unset;
+    width: unset;
+}
+
+.status-menu-container .search-container #search-box input {
+    width: unset;
+    height: unset;
+    box-sizing: unset;
+}
+
+.list-block {
+    margin-top: unset;
+    min-height: unset;
+    padding: unset;
+}
+
+.list-unit {
+    display: unset;
+    margin: unset;
+    width: unset;
+}
+
+.list-unit .list-status-title {
+    position: unset;
+    display: unset;
+    background-color: unset;
+    width: unset;
+    height: unset;
+}
+
+.list-unit .list-status-title .text {
+    display: unset;
+    width: unset;
+    height: unset;
+    font-size: unset;
+    color: unset;
+    font-weight: unset;
+    font-family: unset;
+    text-align: unset;
+    vertical-align: unset;
+}
+
+.list-unit .list-status-title .stats {
+    position: unset;
+    height: unset;
+    line-height: unset;
+    right: unset;
+}
+
+.list-unit .list-status-title .stats a {
+    margin-right: unset;
+    color: unset;
+}
+
+.list-unit .list-status-title .stats a.filterd {
+    text-shadow: unset;
+}
+
+.list-unit .list-stats {
+    display: unset;
+    background-color: unset;
+    width: unset;
+    height: unset;
+    line-height: unset;
+    color: unset;
+    text-align: unset;
+}
+
+.list-table {
+    width: unset;
+    margin: unset;
+    border-collapse: unset;
+    border: unset;
+}
+
+.list-table>tbody:nth-of-type(2n+1) {
+    background-color: unset;
+}
+
+.list-table .list-table-header .header-title {
+    background: unset;
+    display: unset;
+    border-bottom: unset;
+    height: unset;
+    text-align: unset;
+    vertical-align: unset;
+}
+
+.list-table .list-table-header .header-title:last-child {
+    background-image: unset;
+}
+
+.list-table .list-table-header .header-title.status {
+    background-image: unset;
+    width: unset;
+}
+
+.list-table .list-table-header .header-title.number {
+    width: unset;
+}
+
+.list-table .list-table-header .header-title.image {
+    width: unset;
+}
+
+.list-table .list-table-header .header-title.title {
+    padding-left: unset;
+    text-align: unset;
+}
+
+.list-table .list-table-header .header-title.score {
+    width: unset;
+}
+
+.list-table .list-table-header .header-title.type {
+    width: unset;
+}
+
+.list-table .list-table-header .header-title.progress {
+    width: unset;
+}
+
+.list-table .list-table-header .header-title.chapters {
+    width: unset;
+}
+
+.list-table .list-table-header .header-title.volumes {
+    width: unset;
+}
+
+.list-table .list-table-header .header-title.tags {
+    width: unset;
+}
+
+.list-table .list-table-header .header-title.rated {
+    width: unset;
+}
+
+.list-table .list-table-header .header-title.started {
+    width: unset;
+}
+
+.list-table .list-table-header .header-title.finished {
+    width: unset;
+}
+
+.list-table .list-table-header .header-title.days {
+    width: unset;
+}
+
+.list-table .list-table-header .header-title.storage {
+    width: unset;
+}
+
+.list-table .list-table-header .header-title.retail {
+    width: unset;
+}
+
+.list-table .list-table-header .header-title.priority {
+    width: unset;
+}
+
+.list-table .list-table-header .header-title.popularity {
+    width: unset;
+}
+
+.list-table .list-table-header .header-title .link {
+    font-size: unset;
+    color: unset;
+    text-decoration: unset;
+}
+
+.list-table .list-table-header .header-title .link.sort {
+    position: unset;
+    display: unset;
+    color: unset;
+    white-space: unset;
+    -moz-transition-property: unset;
+    -o-transition-property: unset;
+    -webkit-transition-property: unset;
+    transition-property: unset;
+    -moz-transition-duration: unset;
+    -o-transition-duration: unset;
+    -webkit-transition-duration: unset;
+    transition-duration: unset;
+    -moz-transition-timing-function: unset;
+    -o-transition-timing-function: unset;
+    -webkit-transition-timing-function: unset;
+    transition-timing-function: unset;
+}
+
+.list-table .list-table-header .header-title .link.sort:hover {
+    color: unset;
+}
+
+.list-table .list-table-header .header-title .sort-icon {
+    color: unset;
+}
+
+.list-table .list-table-data .data {
+    display: unset;
+    padding: unset;
+    text-align: unset;
+    vertical-align: unset;
+    border-bottom: unset;
+}
+
+.list-table .list-table-data a:not(.edit-disabled):hover {
+    text-decoration: unset;
+}
+
+.list-table .list-table-data a.edit-disabled {
+    cursor: unset;
+    color: unset;
+}
+
+.list-table .list-table-data .tags .edit {
+    display: unset;
+    width: unset;
+    text-align: unset;
+    color: unset;
+    font-size: unset;
+    font-family: unset;
+}
+
+.list-table .list-table-data .tags .edit:hover {
+    color: unset;
+}
+
+.list-table .list-table-data .tags textarea {
+    box-sizing: unset;
+    width: unset;
+    height: unset;
+}
+
+.list-table .list-table-data .data.image a {
+    display: unset;
+}
+
+.list-table .list-table-data .data.image .image {
+    width: unset;
+    height: unset;
+    border: unset;
+}
+
+.list-table .list-table-data .data.title {
+    padding-left: unset;
+    text-align: unset;
+    word-wrap: unset;
+}
+
+.list-table .list-table-data .data.title .link {
+    font-size: unset;
+    font-weight: unset;
+}
+
+.list-table .list-table-data .data.title .rewatching,
+.list-table .list-table-data .data.title .rereading,
+.list-table .list-table-data .data.title .content-status {
+    color: unset;
+    font-size: unset;
+}
+
+.list-table .list-table-data .data.score .link {
+    font-size: unset;
+    font-weight: unset;
+}
+
+.list-table .list-table-data .data.title .add-edit-more {
+    float: unset;
+    margin-right: unset;
+    font-size: unset;
+}
+
+.list-table .list-table-data .data.title .more {
+    position: unset;
+}
+
+.list-table .more-info {
+    display: unset;
+    border-bottom: unset;
+}
+
+.list-table .more-info .more-content {
+    padding: unset;
+}
+
+.list-table .list-table-data .data.tags {
+    word-wrap: unset;
+}
+
+.list-table .list-table-data .data.status {
+    width: unset;
+}
+
+.list-table .list-table-data .data.status .text {
+    display: unset;
+}
+
+.list-table .list-table-data .data.status.reading,
+.list-table .list-table-data .data.status.watching {
+    background-color: unset;
+}
+
+.list-table .list-table-data .data.status.plantoread,
+.list-table .list-table-data .data.status.plantowatch {
+    background-color: unset;
+}
+
+.list-table .list-table-data .data.status.completed {
+    background-color: unset;
+}
+
+.list-table .list-table-data .data.status.onhold {
+    background-color: unset;
+}
+
+.list-table .list-table-data .data.status.dropped {
+    background-color: unset;
+}
+
+.list-table .list-table-data .data.title {
+    padding-left: unset;
+    text-align: unset;
+}
+
+.list-table .list-table-data .data.title .notes {
+    width: unset;
+}
+
+.list-table .list-table-data .data.title .notes .text {
+    color: unset;
+}
+
+.list-table .list-table-data .data.title .notes textarea {
+    width: unset;
+}
+
+.list-table .list-table-data .data.title .notes .edit {
+    color: unset;
+    font-size: unset;
+}
+
+.list-unit .loading-space {
+    margin: unset;
+    height: unset;
+    font-size: unset;
+    text-align: unset;
+}
