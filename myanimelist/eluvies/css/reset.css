@@ -1,1124 +1,1124 @@
 #advanced-options {
-    position: unset;
-    top: unset;
-    left: unset;
-    right: unset;
-    background-color: unset;
-    display: unset;
-    width: unset;
-    margin: unset;
-    padding: unset;
-    border: unset;
-    -moz-box-shadow: unset;
-    -webkit-box-shadow: unset;
-    -o-box-shadow: unset;
-    -ms-box-shadow: unset;
-    box-shadow: unset;
-    color: unset;
-    text-align: unset;
-    font-family: unset;
-    z-index: unset;
+    position: revert;
+    top: revert;
+    left: revert;
+    right: revert;
+    background-color: revert;
+    display: revert;
+    width: revert;
+    margin: revert;
+    padding: revert;
+    border: revert;
+    -moz-box-shadow: revert;
+    -webkit-box-shadow: revert;
+    -o-box-shadow: revert;
+    -ms-box-shadow: revert;
+    box-shadow: revert;
+    color: revert;
+    text-align: revert;
+    font-family: revert;
+    z-index: revert;
 }
 
 #advanced-options .advanced-options-header {
-    width: unset;
-    margin: unset;
-    padding-bottom: unset;
-    border-bottom: unset;
-    font-size: unset;
+    width: revert;
+    margin: revert;
+    padding-bottom: revert;
+    border-bottom: revert;
+    font-size: revert;
 }
 
 #advanced-options .advanced-options-header .description {
-    font-size: unset;
-    font-weight: unset;
-    margin-left: unset;
+    font-size: revert;
+    font-weight: revert;
+    margin-left: revert;
 }
 
 #advanced-options select {
-    -ms-appearance: unset;
-    -webkit-appearance: unset;
-    -moz-appearance: unset;
-    appearance: unset;
-    background-image: unset;
-    background-repeat: unset;
-    background-position: unset;
-    background-size: unset;
-    background-color: unset;
-    display: unset;
-    height: unset;
-    padding: unset;
-    padding-right: unset;
-    border: unset;
-    border-radius: unset;
-    font-size: unset;
+    -ms-appearance: revert;
+    -webkit-appearance: revert;
+    -moz-appearance: revert;
+    appearance: revert;
+    background-image: revert;
+    background-repeat: revert;
+    background-position: revert;
+    background-size: revert;
+    background-color: revert;
+    display: revert;
+    height: revert;
+    padding: revert;
+    padding-right: revert;
+    border: revert;
+    border-radius: revert;
+    font-size: revert;
 }
 
 #advanced-options select::-ms-expand {
-    display: unset;
+    display: revert;
 }
 
 #advanced-options select:disabled {
-    background-image: unset;
-    color: unset;
+    background-image: revert;
+    color: revert;
 }
 
 #advanced-options input[type=text] {
-    padding: unset;
-    border: unset;
+    padding: revert;
+    border: revert;
 }
 
 #advanced-options input:focus {
-    outline: unset;
+    outline: revert;
 }
 
 #advanced-options .sort-widget {
-    margin: unset;
-    padding: unset;
-    width: unset;
+    margin: revert;
+    padding: revert;
+    width: revert;
 }
 
 #advanced-options .sort-widget:last-of-type {
-    padding-bottom: unset;
+    padding-bottom: revert;
 }
 
 #advanced-options .sort-widget select {
-    width: unset;
-    margin-right: unset;
+    width: revert;
+    margin-right: revert;
 }
 
 #advanced-options .sort-widget input[type=radio] {
-    display: unset;
+    display: revert;
 }
 
 #advanced-options .sort-widget input[type=radio]+label {
-    background-color: unset;
-    display: unset;
-    width: unset;
-    padding: unset;
-    border: unset;
-    border-radius: unset;
-    color: unset;
-    font-size: unset;
-    text-align: unset;
-    cursor: unset;
+    background-color: revert;
+    display: revert;
+    width: revert;
+    padding: revert;
+    border: revert;
+    border-radius: revert;
+    color: revert;
+    font-size: revert;
+    text-align: revert;
+    cursor: revert;
 }
 
 #advanced-options .sort-widget input[type=radio]:checked+label {
-    background-color: unset;
-    border: unset;
-    color: unset;
+    background-color: revert;
+    border: revert;
+    color: revert;
 }
 
 #advanced-options .sort-widget input[type=radio]:disabled+label {
-    border: unset;
-    color: unset;
+    border: revert;
+    color: revert;
 }
 
 #advanced-options .sort-widget input[type=radio]:checked:disabled+label {
-    background-color: unset;
-    border: unset;
-    color: unset;
+    background-color: revert;
+    border: revert;
+    color: revert;
 }
 
 #advanced-options .filter-widget {
-    margin: unset;
-    padding: unset;
-    width: unset;
+    margin: revert;
+    padding: revert;
+    width: revert;
 }
 
 #advanced-options .filter-widget select {
-    margin-right: unset;
-    font-size: unset;
+    margin-right: revert;
+    font-size: revert;
 }
 
 #advanced-options .filter-widget.title input[type=text] {
-    width: unset;
+    width: revert;
 }
 
 #advanced-options .filter-widget.airing-status select,
 #advanced-options .filter-widget.publishing-status select {
-    width: unset;
+    width: revert;
 }
 
 #advanced-options .filter-widget.producer select,
 #advanced-options .filter-widget.magazine select {
-    width: unset;
+    width: revert;
 }
 
 #advanced-options .filter-widget.aired-date select.year,
 #advanced-options .filter-widget.published-date select.year {
-    width: unset;
+    width: revert;
 }
 
 #advanced-options .filter-widget.aired-date select.month,
 #advanced-options .filter-widget.published-date select.month,
 #advanced-options .filter-widget.aired-date select.day,
 #advanced-options .filter-widget.published-date select.day {
-    width: unset;
+    width: revert;
 }
 
 #advanced-options .filter-widget.aired-date .text,
 #advanced-options .filter-widget.published-date .text {
-    display: unset;
-    margin-right: unset;
-    font-size: unset;
+    display: revert;
+    margin-right: revert;
+    font-size: revert;
 }
 
 #advanced-options .filter-widget.aired-season select.year {
-    width: unset;
+    width: revert;
 }
 
 #advanced-options .filter-widget.aired-season select.season {
-    width: unset;
+    width: revert;
 }
 
 #advanced-options .sort-widget .widget-header,
 #advanced-options .filter-widget .widget-header {
-    display: unset;
-    width: unset;
-    font-size: unset;
-    font-family: unset;
+    display: revert;
+    width: revert;
+    font-size: revert;
+    font-family: revert;
 }
 
 #advanced-options .sort-widget:last-of-type,
 #advanced-options .filter-widget:last-of-type {
-    padding-bottom: unset;
+    padding-bottom: revert;
 }
 
 #advanced-options .advanced-options-button {
-    width: unset;
-    margin: unset;
-    padding: unset;
-    border-top: unset;
-    text-align: unset;
+    width: revert;
+    margin: revert;
+    padding: revert;
+    border-top: revert;
+    text-align: revert;
 }
 
 #advanced-options .btn-apply,
 #advanced-options .btn-clear {
-    background-color: unset;
-    display: unset;
-    width: unset;
-    margin: unset;
-    padding: unset;
-    border-radius: unset;
-    font-size: unset;
-    color: unset;
-    text-align: unset;
-    -moz-transition-property: unset;
-    -o-transition-property: unset;
-    -webkit-transition-property: unset;
-    transition-property: unset;
-    -moz-transition-duration: unset;
-    -o-transition-duration: unset;
-    -webkit-transition-duration: unset;
-    transition-duration: unset;
-    -moz-transition-timing-function: unset;
-    -o-transition-timing-function: unset;
-    -webkit-transition-timing-function: unset;
-    transition-timing-function: unset;
+    background-color: revert;
+    display: revert;
+    width: revert;
+    margin: revert;
+    padding: revert;
+    border-radius: revert;
+    font-size: revert;
+    color: revert;
+    text-align: revert;
+    -moz-transition-property: revert;
+    -o-transition-property: revert;
+    -webkit-transition-property: revert;
+    transition-property: revert;
+    -moz-transition-duration: revert;
+    -o-transition-duration: revert;
+    -webkit-transition-duration: revert;
+    transition-duration: revert;
+    -moz-transition-timing-function: revert;
+    -o-transition-timing-function: revert;
+    -webkit-transition-timing-function: revert;
+    transition-timing-function: revert;
 }
 
 #advanced-options .btn-apply:hover,
 #advanced-options .btn-clear:hover {
-    background-color: unset;
+    background-color: revert;
 }
 
 
 body {
-    margin: unset;
-    text-align: unset;
-    font-family: unset;
-    font-size: unset;
+    margin: revert;
+    text-align: revert;
+    font-family: revert;
+    font-size: revert;
 }
 
 td {
-    line-height: unset;
+    line-height: revert;
 }
 
 a {
-    color: unset;
-    text-decoration: unset;
+    color: revert;
+    text-decoration: revert;
 }
 
 #footer-block {
-    padding: unset;
-    background-color: unset;
-    color: unset;
-    font-family: unset;
+    padding: revert;
+    background-color: revert;
+    color: revert;
+    font-family: revert;
 }
 
 #copyright {
-    font-size: unset;
-    color: unset;
-    padding-top: unset;
-    text-align: unset;
+    font-size: revert;
+    color: revert;
+    padding-top: revert;
+    text-align: revert;
 }
 
 #recaptcha-terms {
-    font-size: unset;
-    margin-top: unset;
-    color: unset;
+    font-size: revert;
+    margin-top: revert;
+    color: revert;
 }
 
 #recaptcha-terms a {
-    color: unset;
+    color: revert;
 }
 
 #recaptcha-terms a:hover {
-    color: unset;
+    color: revert;
 }
 
 .grecaptcha-badge {
-    visibility: unset;
+    visibility: revert;
 }
 
 .header a {
-    font-weight: unset;
-    color: unset;
+    font-weight: revert;
+    color: revert;
 }
 
 .header a:hover {
-    text-decoration: unset;
+    text-decoration: revert;
 }
 
 .header {
-    position: unset;
-    color: unset;
-    display: unset;
-    width: unset;
-    height: unset;
-    margin: unset;
+    position: revert;
+    color: revert;
+    display: revert;
+    width: revert;
+    height: revert;
+    margin: revert;
 }
 
 .header .header-title {
-    position: unset;
-    top: unset;
-    background-image: unset;
-    background-position: unset;
-    background-repeat: unset;
-    background-size: unset;
-    display: unset;
-    width: unset;
-    height: unset;
-    text-indent: unset;
-    overflow: unset;
+    position: revert;
+    top: revert;
+    background-image: revert;
+    background-position: revert;
+    background-repeat: revert;
+    background-size: revert;
+    display: revert;
+    width: revert;
+    height: revert;
+    text-indent: revert;
+    overflow: revert;
 }
 
 .header .header-menu {
-    position: unset;
-    top: unset;
-    right: unset;
-    color: unset;
+    position: revert;
+    top: revert;
+    right: revert;
+    color: revert;
 }
 
 .header .header-menu.other {
-    top: unset;
+    top: revert;
 }
 
 .header .header-menu .btn-menu {
-    display: unset;
-    color: unset;
-    text-align: unset;
-    font-size: unset;
+    display: revert;
+    color: revert;
+    text-align: revert;
+    font-size: revert;
 }
 
 .header .header-menu .btn-menu>a {
-    color: unset;
+    color: revert;
 }
 
 .header .username {
-    font-weight: unset;
+    font-weight: revert;
 }
 
 .header .header-menu .list-menu {
-    position: unset;
-    top: unset;
-    right: unset;
-    background-color: unset;
-    display: unset;
-    border: unset;
-    -moz-box-shadow: unset;
-    -webkit-box-shadow: unset;
-    box-shadow: unset;
-    z-index: unset;
+    position: revert;
+    top: revert;
+    right: revert;
+    background-color: revert;
+    display: revert;
+    border: revert;
+    -moz-box-shadow: revert;
+    -webkit-box-shadow: revert;
+    box-shadow: revert;
+    z-index: revert;
 }
 
 .header .header-menu .list-menu .icon-menu {
-    display: unset;
-    width: unset;
-    height: unset;
-    color: unset;
-    font-size: unset;
-    font-weight: unset;
-    text-decoration: unset;
-    -moz-transition-property: unset;
-    -o-transition-property: unset;
-    -webkit-transition-property: unset;
-    transition-property: unset;
-    -moz-transition-duration: unset;
-    -o-transition-duration: unset;
-    -webkit-transition-duration: unset;
-    transition-duration: unset;
-    -moz-transition-timing-function: unset;
-    -o-transition-timing-function: unset;
-    -webkit-transition-timing-function: unset;
-    transition-timing-function: unset;
+    display: revert;
+    width: revert;
+    height: revert;
+    color: revert;
+    font-size: revert;
+    font-weight: revert;
+    text-decoration: revert;
+    -moz-transition-property: revert;
+    -o-transition-property: revert;
+    -webkit-transition-property: revert;
+    transition-property: revert;
+    -moz-transition-duration: revert;
+    -o-transition-duration: revert;
+    -webkit-transition-duration: revert;
+    transition-duration: revert;
+    -moz-transition-timing-function: revert;
+    -o-transition-timing-function: revert;
+    -webkit-transition-timing-function: revert;
+    transition-timing-function: revert;
 }
 
 .header .header-info {
-    margin-top: unset;
-    margin-right: unset;
-    font-size: unset;
-    text-align: unset;
-    color: unset;
+    margin-top: revert;
+    margin-right: revert;
+    font-size: revert;
+    text-align: revert;
+    color: revert;
 }
 
 .header .header-info>a {
-    color: unset;
+    color: revert;
 }
 
 .header .header-menu .list-menu .icon-menu:hover {
-    background-color: unset;
+    background-color: revert;
 }
 
 .header .header-menu .list-menu .icon-menu svg.icon {
-    position: unset;
-    fill: unset;
-    left: unset;
-    top: unset;
+    position: revert;
+    fill: revert;
+    left: revert;
+    top: revert;
 }
 
 .header .header-menu .list-menu .icon-menu .text {
-    position: unset;
-    left: unset;
-    top: unset;
+    position: revert;
+    left: revert;
+    top: revert;
 }
 
 .list-menu-float {
-    position: unset;
-    display: unset;
-    top: unset;
-    width: unset;
-    border: unset;
-    z-index: unset;
+    position: revert;
+    display: revert;
+    top: revert;
+    width: revert;
+    border: revert;
+    z-index: revert;
 }
 
 .list-menu-float .icon-menu {
-    position: unset;
-    background-color: unset;
-    display: unset;
-    width: unset;
-    height: unset;
-    opacity: unset;
-    -moz-transition-property: unset;
-    -o-transition-property: unset;
-    -webkit-transition-property: unset;
-    transition-property: unset;
-    -moz-transition-duration: unset;
-    -o-transition-duration: unset;
-    -webkit-transition-duration: unset;
-    transition-duration: unset;
-    -moz-transition-timing-function: unset;
-    -o-transition-timing-function: unset;
-    -webkit-transition-timing-function: unset;
-    transition-timing-function: unset;
+    position: revert;
+    background-color: revert;
+    display: revert;
+    width: revert;
+    height: revert;
+    opacity: revert;
+    -moz-transition-property: revert;
+    -o-transition-property: revert;
+    -webkit-transition-property: revert;
+    transition-property: revert;
+    -moz-transition-duration: revert;
+    -o-transition-duration: revert;
+    -webkit-transition-duration: revert;
+    transition-duration: revert;
+    -moz-transition-timing-function: revert;
+    -o-transition-timing-function: revert;
+    -webkit-transition-timing-function: revert;
+    transition-timing-function: revert;
 }
 
 .list-menu-float .icon-menu svg.icon {
-    position: unset;
-    fill: unset;
+    position: revert;
+    fill: revert;
 }
 
 .list-menu-float .icon-menu:hover svg.icon {
-    position: unset;
-    fill: unset;
+    position: revert;
+    fill: revert;
 }
 
 .list-menu-float .icon-menu.profile {
-    background-size: unset;
+    background-size: revert;
 }
 
 .list-menu-float .icon-menu.quick-add svg.icon-quick-add {
-    left: unset;
-    top: unset;
+    left: revert;
+    top: revert;
 }
 
 .list-menu-float .icon-menu.anime-list svg.icon-anime-list {
-    left: unset;
-    top: unset;
+    left: revert;
+    top: revert;
 }
 
 .list-menu-float .icon-menu.manga-list svg.icon-manga-list {
-    left: unset;
-    top: unset;
+    left: revert;
+    top: revert;
 }
 
 .list-menu-float .icon-menu.statistics svg.icon-statistics {
-    left: unset;
-    top: unset;
+    left: revert;
+    top: revert;
 }
 
 .list-menu-float .icon-menu.history svg.icon-history {
-    left: unset;
-    top: unset;
+    left: revert;
+    top: revert;
 }
 
 .list-menu-float .icon-menu.export svg.icon-export {
-    left: unset;
-    top: unset;
+    left: revert;
+    top: revert;
 }
 
 .list-menu-float .icon-menu.login svg.icon-login {
-    left: unset;
-    top: unset;
+    left: revert;
+    top: revert;
 }
 
 .list-menu-float .icon-menu.logout svg.icon-logout {
-    left: unset;
-    top: unset;
+    left: revert;
+    top: revert;
 }
 
 .list-menu-float .icon-menu.setting svg.icon-setting {
-    left: unset;
-    top: unset;
+    left: revert;
+    top: revert;
 }
 
 .list-menu-float .icon-menu .text {
-    position: unset;
-    top: unset;
-    left: unset;
-    width: unset;
-    display: unset;
-    color: unset;
-    font-size: unset;
-    font-family: unset;
-    text-align: unset;
-    vertical-align: unset;
-    overflow: unset;
-    white-space: unset;
-    opacity: unset;
-    -moz-transition-property: unset;
-    -o-transition-property: unset;
-    -webkit-transition-property: unset;
-    transition-property: unset;
-    -moz-transition-duration: unset;
-    -o-transition-duration: unset;
-    -webkit-transition-duration: unset;
-    transition-duration: unset;
-    -moz-transition-timing-function: unset;
-    -o-transition-timing-function: unset;
-    -webkit-transition-timing-function: unset;
-    transition-timing-function: unset;
+    position: revert;
+    top: revert;
+    left: revert;
+    width: revert;
+    display: revert;
+    color: revert;
+    font-size: revert;
+    font-family: revert;
+    text-align: revert;
+    vertical-align: revert;
+    overflow: revert;
+    white-space: revert;
+    opacity: revert;
+    -moz-transition-property: revert;
+    -o-transition-property: revert;
+    -webkit-transition-property: revert;
+    transition-property: revert;
+    -moz-transition-duration: revert;
+    -o-transition-duration: revert;
+    -webkit-transition-duration: revert;
+    transition-duration: revert;
+    -moz-transition-timing-function: revert;
+    -o-transition-timing-function: revert;
+    -webkit-transition-timing-function: revert;
+    transition-timing-function: revert;
 }
 
 .list-menu-float .icon-menu:not(.profile):hover {
-    background-color: unset;
-    width: unset;
+    background-color: revert;
+    width: revert;
 }
 
 .list-menu-float .icon-menu:hover .text {
-    width: unset;
-    opacity: unset;
+    width: revert;
+    opacity: revert;
 }
 
 .list-menu-float .icon-menu.setting .text {
-    top: unset;
-    width: unset;
-    height: unset;
-    opacity: unset;
-    -moz-transition-property: unset;
-    -o-transition-property: unset;
-    -webkit-transition-property: unset;
-    transition-property: unset;
-    -moz-transition-duration: unset;
-    -o-transition-duration: unset;
-    -webkit-transition-duration: unset;
-    transition-duration: unset;
-    -moz-transition-timing-function: unset;
-    -o-transition-timing-function: unset;
-    -webkit-transition-timing-function: unset;
-    transition-timing-function: unset;
+    top: revert;
+    width: revert;
+    height: revert;
+    opacity: revert;
+    -moz-transition-property: revert;
+    -o-transition-property: revert;
+    -webkit-transition-property: revert;
+    transition-property: revert;
+    -moz-transition-duration: revert;
+    -o-transition-duration: revert;
+    -webkit-transition-duration: revert;
+    transition-duration: revert;
+    -moz-transition-timing-function: revert;
+    -o-transition-timing-function: revert;
+    -webkit-transition-timing-function: revert;
+    transition-timing-function: revert;
 }
 
 .list-menu-float .icon-menu.setting:hover .text {
-    top: unset;
-    width: unset;
-    height: unset;
-    opacity: unset;
+    top: revert;
+    width: revert;
+    height: revert;
+    opacity: revert;
 }
 
 .list-menu-float .icon-menu.setting .text .link-list-setting,
 .list-menu-float .icon-menu.setting .text .link-style-setting {
-    display: unset;
-    opacity: unset;
+    display: revert;
+    opacity: revert;
 }
 
 .list-menu-float .icon-menu.setting:hover .text .link-list-setting,
 .list-menu-float .icon-menu.setting:hover .text .link-style-setting {
-    position: unset;
-    background-color: unset;
-    display: unset;
-    width: unset;
-    height: unset;
-    line-height: unset;
-    text-decoration: unset;
-    color: unset;
-    opacity: unset;
+    position: revert;
+    background-color: revert;
+    display: revert;
+    width: revert;
+    height: revert;
+    line-height: revert;
+    text-decoration: revert;
+    color: revert;
+    opacity: revert;
 }
 
 .list-menu-float .icon-menu.setting:hover .text .link-list-setting {
-    top: unset;
+    top: revert;
 }
 
 .list-menu-float .icon-menu.setting:hover .text .link-style-setting {
-    border-top: unset;
-    top: unset;
+    border-top: revert;
+    top: revert;
 }
 
 .list-container {
-    position: unset;
-    background-color: unset;
-    border: unset;
-    width: unset;
-    margin-bottom: unset;
-    margin-right: unset;
-    margin-left: unset;
-    text-align: unset;
+    position: revert;
+    background-color: revert;
+    border: revert;
+    width: revert;
+    margin-bottom: revert;
+    margin-right: revert;
+    margin-left: revert;
+    text-align: revert;
 }
 
 .cover-block {
-    display: unset;
-    width: unset;
-    margin: unset;
-    text-align: unset;
-    vertical-align: unset;
+    display: revert;
+    width: revert;
+    margin: revert;
+    text-align: revert;
+    vertical-align: revert;
 }
 
 .cover-block .image-container {
-    display: unset;
-    padding-top: unset;
-    width: unset;
+    display: revert;
+    padding-top: revert;
+    width: revert;
 }
 
 .cover-block .image-container.hide {
-    display: unset;
+    display: revert;
 }
 
 .cover-block .image-container img {
-    max-width: unset;
+    max-width: revert;
 }
 
 .cover-block .image-container .btn-list-setting {
-    display: unset;
+    display: revert;
 }
 
 .cover-block .image-container:hover .btn-list-setting {
-    display: unset;
-    position: unset;
-    top: unset;
-    right: unset;
-    padding: unset;
-    border: unset;
-    font-size: unset;
-    color: unset;
-    font-family: unset;
+    display: revert;
+    position: revert;
+    top: revert;
+    right: revert;
+    padding: revert;
+    border: revert;
+    font-size: revert;
+    color: revert;
+    font-family: revert;
 }
 
 .cover-block .image-container .btn-list-setting:hover {
-    position: unset;
-    top: unset;
-    right: unset;
-    background-color: unset;
-    padding: unset;
-    border: unset;
-    -moz-box-shadow: unset;
-    -webkit-box-shadow: unset;
-    -o-box-shadow: unset;
-    -ms-box-shadow: unset;
-    box-shadow: unset;
-    font-size: unset;
-    color: unset;
-    text-shadow: unset;
+    position: revert;
+    top: revert;
+    right: revert;
+    background-color: revert;
+    padding: revert;
+    border: revert;
+    -moz-box-shadow: revert;
+    -webkit-box-shadow: revert;
+    -o-box-shadow: revert;
+    -ms-box-shadow: revert;
+    box-shadow: revert;
+    font-size: revert;
+    color: revert;
+    text-shadow: revert;
 }
 
 .cover-block .image-container .btn-list-setting .fa-camera {
-    font-size: unset;
-    -moz-text-shadow: unset;
-    -webkit-text-shadow: unset;
-    -o-text-shadow: unset;
-    -ms-text-shadow: unset;
-    text-shadow: unset;
-    -ms-filter: unset;
+    font-size: revert;
+    -moz-text-shadow: revert;
+    -webkit-text-shadow: revert;
+    -o-text-shadow: revert;
+    -ms-text-shadow: revert;
+    text-shadow: revert;
+    -ms-filter: revert;
 }
 
 .cover-block .image-container .btn-list-setting .icon-plus-circle {
-    position: unset;
-    top: unset;
-    left: unset;
-    background-color: unset;
-    border-radius: unset;
-    -moz-box-shadow: unset;
-    -webkit-box-shadow: unset;
-    -o-box-shadow: unset;
-    -ms-box-shadow: unset;
-    box-shadow: unset;
-    font-size: unset;
+    position: revert;
+    top: revert;
+    left: revert;
+    background-color: revert;
+    border-radius: revert;
+    -moz-box-shadow: revert;
+    -webkit-box-shadow: revert;
+    -o-box-shadow: revert;
+    -ms-box-shadow: revert;
+    box-shadow: revert;
+    font-size: revert;
 }
 
 .cover-block .image-container .btn-list-setting .text {
-    display: unset;
+    display: revert;
 }
 
 .cover-block .image-container .btn-list-setting:hover .text {
-    display: unset;
-    margin-left: unset;
+    display: revert;
+    margin-left: revert;
 }
 
 .status-menu-container {
-    width: unset;
-    height: unset;
-    background-color: unset;
-    border-bottom: unset;
-    z-index: unset;
+    width: revert;
+    height: revert;
+    background-color: revert;
+    border-bottom: revert;
+    z-index: revert;
 }
 
 .status-menu-container.fixed {
-    position: unset;
-    display: unset;
-    top: unset;
+    position: revert;
+    display: revert;
+    top: revert;
 }
 
 .status-menu-container.fixed+div.list-block {
-    margin-top: unset;
+    margin-top: revert;
 }
 
 .status-menu-container .status-menu {
-    display: unset;
-    margin: unset;
-    border-collapse: unset;
-    border-spacing: unset;
+    display: revert;
+    margin: revert;
+    border-collapse: revert;
+    border-spacing: revert;
 }
 
 .status-menu-container .status-menu .status-button {
-    position: unset;
-    display: unset;
-    padding: unset;
-    margin: unset;
-    font-family: unset;
-    text-align: unset;
-    vertical-align: unset;
-    font-size: unset;
-    color: unset;
+    position: revert;
+    display: revert;
+    padding: revert;
+    margin: revert;
+    font-family: revert;
+    text-align: revert;
+    vertical-align: revert;
+    font-size: revert;
+    color: revert;
 }
 
 .status-menu-container .status-menu .status-button.on {
-    color: unset;
-    font-weight: unset;
+    color: revert;
+    font-weight: revert;
 }
 
 .status-menu-container .status-menu .status-button:after {
-    position: unset;
-    bottom: unset;
-    left: unset;
-    background-color: unset;
-    display: unset;
-    width: unset;
-    height: unset;
-    content: unset;
-    opacity: unset;
-    -moz-transition-property: unset;
-    -o-transition-property: unset;
-    -webkit-transition-property: unset;
-    transition-property: unset;
-    -moz-transition-duration: unset;
-    -o-transition-duration: unset;
-    -webkit-transition-duration: unset;
-    transition-duration: unset;
-    -moz-transition-timing-function: unset;
-    -o-transition-timing-function: unset;
-    -webkit-transition-timing-function: unset;
-    transition-timing-function: unset;
+    position: revert;
+    bottom: revert;
+    left: revert;
+    background-color: revert;
+    display: revert;
+    width: revert;
+    height: revert;
+    content: revert;
+    opacity: revert;
+    -moz-transition-property: revert;
+    -o-transition-property: revert;
+    -webkit-transition-property: revert;
+    transition-property: revert;
+    -moz-transition-duration: revert;
+    -o-transition-duration: revert;
+    -webkit-transition-duration: revert;
+    transition-duration: revert;
+    -moz-transition-timing-function: revert;
+    -o-transition-timing-function: revert;
+    -webkit-transition-timing-function: revert;
+    transition-timing-function: revert;
 }
 
 .status-menu-container .status-menu .status-button.on:after,
 .status-menu .status-button:hover:after {
-    opacity: unset;
+    opacity: revert;
 }
 
 .status-menu-container .search-container {
-    position: unset;
-    right: unset;
+    position: revert;
+    right: revert;
 }
 
 .status-menu-container .search-container #search-button {
-    display: unset;
-    height: unset;
-    margin-top: unset;
-    color: unset;
-    font-size: unset;
-    vertical-align: unset;
+    display: revert;
+    height: revert;
+    margin-top: revert;
+    color: revert;
+    font-size: revert;
+    vertical-align: revert;
 }
 
 .status-menu-container .search-container #search-box {
-    display: unset;
-    width: unset;
-    height: unset;
-    overflow: unset;
-    margin-top: unset;
-    -webkit-transition: unset;
-    -moz-transition: unset;
-    transition: unset;
-    -webkit-backface-visibility: unset;
-    vertical-align: unset;
+    display: revert;
+    width: revert;
+    height: revert;
+    overflow: revert;
+    margin-top: revert;
+    -webkit-transition: revert;
+    -moz-transition: revert;
+    transition: revert;
+    -webkit-backface-visibility: revert;
+    vertical-align: revert;
 }
 
 .status-menu-container .search-container #search-box.open {
-    display: unset;
-    width: unset;
+    display: revert;
+    width: revert;
 }
 
 .status-menu-container .search-container #search-box input {
-    width: unset;
-    height: unset;
-    box-sizing: unset;
+    width: revert;
+    height: revert;
+    box-sizing: revert;
 }
 
 .list-block {
-    margin-top: unset;
-    min-height: unset;
-    padding: unset;
+    margin-top: revert;
+    min-height: revert;
+    padding: revert;
 }
 
 .list-unit {
-    display: unset;
-    margin: unset;
-    width: unset;
+    display: revert;
+    margin: revert;
+    width: revert;
 }
 
 .list-unit .list-status-title {
-    position: unset;
-    display: unset;
-    background-color: unset;
-    width: unset;
-    height: unset;
+    position: revert;
+    display: revert;
+    background-color: revert;
+    width: revert;
+    height: revert;
 }
 
 .list-unit .list-status-title .text {
-    display: unset;
-    width: unset;
-    height: unset;
-    font-size: unset;
-    color: unset;
-    font-weight: unset;
-    font-family: unset;
-    text-align: unset;
-    vertical-align: unset;
+    display: revert;
+    width: revert;
+    height: revert;
+    font-size: revert;
+    color: revert;
+    font-weight: revert;
+    font-family: revert;
+    text-align: revert;
+    vertical-align: revert;
 }
 
 .list-unit .list-status-title .stats {
-    position: unset;
-    height: unset;
-    line-height: unset;
-    right: unset;
+    position: revert;
+    height: revert;
+    line-height: revert;
+    right: revert;
 }
 
 .list-unit .list-status-title .stats a {
-    margin-right: unset;
-    color: unset;
+    margin-right: revert;
+    color: revert;
 }
 
 .list-unit .list-status-title .stats a.filterd {
-    text-shadow: unset;
+    text-shadow: revert;
 }
 
 .list-unit .list-stats {
-    display: unset;
-    background-color: unset;
-    width: unset;
-    height: unset;
-    line-height: unset;
-    color: unset;
-    text-align: unset;
+    display: revert;
+    background-color: revert;
+    width: revert;
+    height: revert;
+    line-height: revert;
+    color: revert;
+    text-align: revert;
 }
 
 .list-table {
-    width: unset;
-    margin: unset;
-    border-collapse: unset;
-    border: unset;
+    width: revert;
+    margin: revert;
+    border-collapse: revert;
+    border: revert;
 }
 
 .list-table>tbody:nth-of-type(2n+1) {
-    background-color: unset;
+    background-color: revert;
 }
 
 .list-table .list-table-header .header-title {
-    background: unset;
-    display: unset;
-    border-bottom: unset;
-    height: unset;
-    text-align: unset;
-    vertical-align: unset;
+    background: revert;
+    display: revert;
+    border-bottom: revert;
+    height: revert;
+    text-align: revert;
+    vertical-align: revert;
 }
 
 .list-table .list-table-header .header-title:last-child {
-    background-image: unset;
+    background-image: revert;
 }
 
 .list-table .list-table-header .header-title.status {
-    background-image: unset;
-    width: unset;
+    background-image: revert;
+    width: revert;
 }
 
 .list-table .list-table-header .header-title.number {
-    width: unset;
+    width: revert;
 }
 
 .list-table .list-table-header .header-title.image {
-    width: unset;
+    width: revert;
 }
 
 .list-table .list-table-header .header-title.title {
-    padding-left: unset;
-    text-align: unset;
+    padding-left: revert;
+    text-align: revert;
 }
 
 .list-table .list-table-header .header-title.score {
-    width: unset;
+    width: revert;
 }
 
 .list-table .list-table-header .header-title.type {
-    width: unset;
+    width: revert;
 }
 
 .list-table .list-table-header .header-title.progress {
-    width: unset;
+    width: revert;
 }
 
 .list-table .list-table-header .header-title.chapters {
-    width: unset;
+    width: revert;
 }
 
 .list-table .list-table-header .header-title.volumes {
-    width: unset;
+    width: revert;
 }
 
 .list-table .list-table-header .header-title.tags {
-    width: unset;
+    width: revert;
 }
 
 .list-table .list-table-header .header-title.rated {
-    width: unset;
+    width: revert;
 }
 
 .list-table .list-table-header .header-title.started {
-    width: unset;
+    width: revert;
 }
 
 .list-table .list-table-header .header-title.finished {
-    width: unset;
+    width: revert;
 }
 
 .list-table .list-table-header .header-title.days {
-    width: unset;
+    width: revert;
 }
 
 .list-table .list-table-header .header-title.storage {
-    width: unset;
+    width: revert;
 }
 
 .list-table .list-table-header .header-title.retail {
-    width: unset;
+    width: revert;
 }
 
 .list-table .list-table-header .header-title.priority {
-    width: unset;
+    width: revert;
 }
 
 .list-table .list-table-header .header-title.popularity {
-    width: unset;
+    width: revert;
 }
 
 .list-table .list-table-header .header-title .link {
-    font-size: unset;
-    color: unset;
-    text-decoration: unset;
+    font-size: revert;
+    color: revert;
+    text-decoration: revert;
 }
 
 .list-table .list-table-header .header-title .link.sort {
-    position: unset;
-    display: unset;
-    color: unset;
-    white-space: unset;
-    -moz-transition-property: unset;
-    -o-transition-property: unset;
-    -webkit-transition-property: unset;
-    transition-property: unset;
-    -moz-transition-duration: unset;
-    -o-transition-duration: unset;
-    -webkit-transition-duration: unset;
-    transition-duration: unset;
-    -moz-transition-timing-function: unset;
-    -o-transition-timing-function: unset;
-    -webkit-transition-timing-function: unset;
-    transition-timing-function: unset;
+    position: revert;
+    display: revert;
+    color: revert;
+    white-space: revert;
+    -moz-transition-property: revert;
+    -o-transition-property: revert;
+    -webkit-transition-property: revert;
+    transition-property: revert;
+    -moz-transition-duration: revert;
+    -o-transition-duration: revert;
+    -webkit-transition-duration: revert;
+    transition-duration: revert;
+    -moz-transition-timing-function: revert;
+    -o-transition-timing-function: revert;
+    -webkit-transition-timing-function: revert;
+    transition-timing-function: revert;
 }
 
 .list-table .list-table-header .header-title .link.sort:hover {
-    color: unset;
+    color: revert;
 }
 
 .list-table .list-table-header .header-title .sort-icon {
-    color: unset;
+    color: revert;
 }
 
 .list-table .list-table-data .data {
-    display: unset;
-    padding: unset;
-    text-align: unset;
-    vertical-align: unset;
-    border-bottom: unset;
+    display: revert;
+    padding: revert;
+    text-align: revert;
+    vertical-align: revert;
+    border-bottom: revert;
 }
 
 .list-table .list-table-data a:not(.edit-disabled):hover {
-    text-decoration: unset;
+    text-decoration: revert;
 }
 
 .list-table .list-table-data a.edit-disabled {
-    cursor: unset;
-    color: unset;
+    cursor: revert;
+    color: revert;
 }
 
 .list-table .list-table-data .tags .edit {
-    display: unset;
-    width: unset;
-    text-align: unset;
-    color: unset;
-    font-size: unset;
-    font-family: unset;
+    display: revert;
+    width: revert;
+    text-align: revert;
+    color: revert;
+    font-size: revert;
+    font-family: revert;
 }
 
 .list-table .list-table-data .tags .edit:hover {
-    color: unset;
+    color: revert;
 }
 
 .list-table .list-table-data .tags textarea {
-    box-sizing: unset;
-    width: unset;
-    height: unset;
+    box-sizing: revert;
+    width: revert;
+    height: revert;
 }
 
 .list-table .list-table-data .data.image a {
-    display: unset;
+    display: revert;
 }
 
 .list-table .list-table-data .data.image .image {
-    width: unset;
-    height: unset;
-    border: unset;
+    width: revert;
+    height: revert;
+    border: revert;
 }
 
 .list-table .list-table-data .data.title {
-    padding-left: unset;
-    text-align: unset;
-    word-wrap: unset;
+    padding-left: revert;
+    text-align: revert;
+    word-wrap: revert;
 }
 
 .list-table .list-table-data .data.title .link {
-    font-size: unset;
-    font-weight: unset;
+    font-size: revert;
+    font-weight: revert;
 }
 
 .list-table .list-table-data .data.title .rewatching,
 .list-table .list-table-data .data.title .rereading,
 .list-table .list-table-data .data.title .content-status {
-    color: unset;
-    font-size: unset;
+    color: revert;
+    font-size: revert;
 }
 
 .list-table .list-table-data .data.score .link {
-    font-size: unset;
-    font-weight: unset;
+    font-size: revert;
+    font-weight: revert;
 }
 
 .list-table .list-table-data .data.title .add-edit-more {
-    float: unset;
-    margin-right: unset;
-    font-size: unset;
+    float: revert;
+    margin-right: revert;
+    font-size: revert;
 }
 
 .list-table .list-table-data .data.title .more {
-    position: unset;
+    position: revert;
 }
 
 .list-table .more-info {
-    display: unset;
-    border-bottom: unset;
+    display: revert;
+    border-bottom: revert;
 }
 
 .list-table .more-info .more-content {
-    padding: unset;
+    padding: revert;
 }
 
 .list-table .list-table-data .data.tags {
-    word-wrap: unset;
+    word-wrap: revert;
 }
 
 .list-table .list-table-data .data.status {
-    width: unset;
+    width: revert;
 }
 
 .list-table .list-table-data .data.status .text {
-    display: unset;
+    display: revert;
 }
 
 .list-table .list-table-data .data.status.reading,
 .list-table .list-table-data .data.status.watching {
-    background-color: unset;
+    background-color: revert;
 }
 
 .list-table .list-table-data .data.status.plantoread,
 .list-table .list-table-data .data.status.plantowatch {
-    background-color: unset;
+    background-color: revert;
 }
 
 .list-table .list-table-data .data.status.completed {
-    background-color: unset;
+    background-color: revert;
 }
 
 .list-table .list-table-data .data.status.onhold {
-    background-color: unset;
+    background-color: revert;
 }
 
 .list-table .list-table-data .data.status.dropped {
-    background-color: unset;
+    background-color: revert;
 }
 
 .list-table .list-table-data .data.title {
-    padding-left: unset;
-    text-align: unset;
+    padding-left: revert;
+    text-align: revert;
 }
 
 .list-table .list-table-data .data.title .notes {
-    width: unset;
+    width: revert;
 }
 
 .list-table .list-table-data .data.title .notes .text {
-    color: unset;
+    color: revert;
 }
 
 .list-table .list-table-data .data.title .notes textarea {
-    width: unset;
+    width: revert;
 }
 
 .list-table .list-table-data .data.title .notes .edit {
-    color: unset;
-    font-size: unset;
+    color: revert;
+    font-size: revert;
 }
 
 .list-unit .loading-space {
-    margin: unset;
-    height: unset;
-    font-size: unset;
-    text-align: unset;
+    margin: revert;
+    height: revert;
+    font-size: revert;
+    text-align: revert;
 }
