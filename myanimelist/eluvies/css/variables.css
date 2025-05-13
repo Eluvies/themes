@@ -1,0 +1,20 @@
+:root {
+    --page-padding: 1rem;
+    --header-height: 3.5rem;
+    --menu-item-pd: 0.75rem;
+    --menu-item-height: 2.5rem;
+    --menu-height: 3.5rem;
+    --line-height: 1.5;
+    --fs-xs: 0.75rem;
+    --fs-sm: 0.875rem;
+    --fs-md: 1rem;
+    --fs-lg: 0;
+    --fs-xl: 0;
+    --card-padding: 16px;
+    --card-border-radius: 8px;
+    --card-min-width: 192px;
+    --list-max-columns: 5;
+    --main-content-max-width: calc(var(--list-max-columns) * var(--card-min-width) + (var(--list-max-columns) - 1) * var(--card-padding) + 2 * var(--page-padding));
+    --profile-icon-height: 3rem;
+    --mal-logo: url('https://raw.githubusercontent.com/Eluvies/themes/refs/heads/main/myanimelist/eluvies/icons/mal-favicon.svg');
+}
