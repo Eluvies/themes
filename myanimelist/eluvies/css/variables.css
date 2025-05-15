@@ -1,5 +1,6 @@
 :root {
     --icon-search: url(https://eluvies.github.io/themes/myanimelist/eluvies/icons/search.svg);
-    --icon-chevron-down: url(https://raw.githubusercontent.com/Eluvies/themes/refs/heads/main/myanimelist/eluvies/icons/icons/chevron-down.svg);
-    --icon-mal: url(https://raw.githubusercontent.com/Eluvies/themes/refs/heads/main/myanimelist/eluvies/icons/icons/mal.svg);
+    --icon-chevron-down: url(https://eluvies.github.io/themes/myanimelist/eluvies/icons/chevron-down.svg);
+    --icon-mal: url(https://eluvies.github.io/themes/myanimelist/eluvies/icons/mal.svg);
+    --icon-star: url(https://eluvies.github.io/themes/myanimelist/eluvies/icons/star.svg);
 }
