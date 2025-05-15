@@ -1,3 +1,9 @@
+:root {
+    --icon-search: url(https://raw.githubusercontent.com/Eluvies/themes/refs/heads/main/myanimelist/eluvies/icons/search.svg);
+    --icon-chevron-down: url(https://raw.githubusercontent.com/Eluvies/themes/refs/heads/main/myanimelist/eluvies/icons/chevron-down.svg);
+    --icon-mal: url(../icons/mal.svg);
+}
+
 @font-face {
   font-family: "Eluvies";
   font-weight: normal;
