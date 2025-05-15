@@ -4,6 +4,11 @@
     --icon-mal: url(../icons/mal.svg);
 }
 
+body.ownlist .header .header-title {
+  background-color: white;
+  mask: var(--icon-mal) no-repeat;
+}
+
 @font-face {
   font-family: "Eluvies";
   font-weight: normal;
