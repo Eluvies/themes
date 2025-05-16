@@ -1,8 +1,5 @@
-@\import "https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap";
-
-@\import "https://eluvies.github.io/themes/myanimelist/eluvies/css/reset.css";
-
-@\import "https://eluvies.github.io/themes/myanimelist/eluvies/css/variables.css";
+@import url(reset.css);
+@import url(variables.css);
 
 :root {
     --spacing: 4px;
