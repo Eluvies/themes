@@ -1,22 +1,27 @@
-@import url(reset.css);
-@import url(variables.css);
+@\import "https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap";
+
+@\import "https://eluvies.github.io/themes/myanimelist/eluvies/css/reset.css";
+
+@\import "https://eluvies.github.io/themes/myanimelist/eluvies/css/variables.css";
 
 :root {
     --spacing: 4px;
     --page-padding: calc(4 * var(--spacing));
+    --footer-padding-y: calc(4 * var(--spacing));
     --header-height: 3rem;
     --options-menu-height: 3rem;
     --menu-item-height: 2.5rem;
     --line-height: 1.5;
+    --icon-text-gap: 0.9ch;
     --fs-xs: 0.75rem;
     --fs-sm: 0.875rem;
     --fs-md: 1rem;
     --fs-lg: 0;
     --fs-xl: 0;
-    --card-padding: calc(3 * var(--spacing));
-    --card-border-radius: 8px;
-    --card-min-width: 192px;
     --list-max-columns: 5;
+    --card-min-width: 192px;
+    --card-padding: calc(4 * var(--spacing));
+    --card-border-radius: 8px;
     --main-content-max-width: calc(var(--list-max-columns) * var(--card-min-width) + (var(--list-max-columns) - 1) * var(--page-padding) + 2 * var(--page-padding));
     --profile-icon-size: 2rem;
     --dropdown-padding: calc(3 * var(--spacing));
@@ -70,11 +75,6 @@ a {
 
 /* Lateral spacing (prevent edge colissions) */
 
-.header,
-#footer-block {
-    padding-inline: var(--page-padding);
-}
-
 #advanced-options {
     display: none;
 }
@@ -93,9 +93,9 @@ body.ownlist {
         align-items: center;
         justify-content: space-between;
         gap: 1rem;
-        padding-block: max(var(--page-padding), calc((var(--header-height) - var(--header-logo-height)) / 2));
         left: 50%;
         transform: translateX(-50%);
+        padding: 0 var(--page-padding);
 
         &:before {
             content: '';
@@ -120,7 +120,8 @@ body.ownlist {
             height: 1.375rem;
             aspect-ratio: 150 / 69;
             background-color: white;
-            mask: var(--icon-mal) no-repeat;
+            mask-image: var(--icon-mal);
+            mask-repeaT: no-repeat;
             mask-size: 120%;
             mask-position: center;
         }
@@ -129,7 +130,7 @@ body.ownlist {
             order: 1;
 
             &:not(.other) {
-                margin-right: calc(1rem + var(--profile-icon-size));
+                margin-right: calc(1em + var(--profile-icon-size));
             }
         }
 
@@ -143,9 +144,8 @@ body.ownlist {
         position: fixed;
         width: var(--profile-icon-size);
         aspect-ratio: 1 / 1;
-        top: max(0px, calc((var(--header-height) - var(--profile-icon-size)) / 2));
+        top: calc((var(--header-height) - var(--profile-icon-size)) / 2);
         right: max(var(--page-padding), calc(50vw - var(--main-content-max-width) / 2 + var(--page-padding)));
-        margin-left: auto;
         background-size: cover;
         background-repeat: no-repeat;
         border-radius: 100%;
@@ -263,15 +263,14 @@ body.ownlist #list-container .cover-block {
 /* Options menu */
 
 body.ownlist #list-container {
-    
     #status-menu {
         position: relative;
         height: var(--options-menu-height);
         z-index: 1;
-        display: flex;
         width: 100%;
         background-color: #222222;
         max-width: var(--main-content-max-width);
+        display: flex;
 
         &.fixed {
             position: fixed;
@@ -295,20 +294,19 @@ body.ownlist #list-container {
                 content: var(--active-status);
                 color: var(--text-color);
                 top: 0;
-                display: flex;
-                align-items: center;
                 position: absolute;
                 cursor: pointer;
                 border-radius: 0.375rem;
-                height: var(--options-menu-height);
+                line-height: var(--options-menu-height);
                 padding-right: 1.2em;
             }
 
             &:after {
                 background-color: var(--text-color);
-                mask: var(--icon-chevron-down) no-repeat;
+                mask-image: var(--icon-chevron-down);
+                mask-repeat: no-repeat;
                 mask-size: round(0.8em, 1px);
-                mask-position: calc(100% + round(0.8em, 1px) / 12) center;
+                mask-position: calc(100% + 0.8em / 12) center;
                 z-index: 1;
             }
 
@@ -350,9 +348,7 @@ body.ownlist #list-container {
                 position: absolute;
                 top: 0;
                 right: 0;
-                height: var(--options-menu-height);
                 display: flex;
-                align-items: center;
 
                 #search-box {
                     position: absolute;
@@ -374,34 +370,52 @@ body.ownlist #list-container {
 
                 #search-button {
                     display: flex;
-                    height: 100%;
-                    align-items: center;
-
+                    height: var(--options-menu-height);
+                    padding: 0 var(--page-padding);
+                    
                     &:hover {
                         background-color: rgba(255, 255, 255, .1);
                     }
 
-                    .fa-solid:before {
+                    &:before {
                         content: "";
                         display: block;
                         box-sizing: content-box;
-                        width: 1rem;
-                        height: 1rem;
-                        padding: 0 var(--page-padding);
+                        flex: 0 0 1rem;
                         background-color: var(--text-color);
-                        mask: var(--icon-search) no-repeat;
+                        mask-image: var(--icon-search);
+                        mask-repeat: no-repeat;
+                        mask-size: 100% auto;
                         mask-position: center;
                     }
+
+                    .fa-solid {
+                        display: none
+                    }
+                }
+
+                &:after {
+                    content: 'FiltersStats';
+                    margin: 0 calc(2 * var(--page-padding));
+                    padding: 0 calc(1rem + var(--icon-text-gap));
+                    visibility: hidden;
                 }
             }
         }
     }
 
+    .list-block .list-unit .list-table>tbody:first-child {
+        position: absolute;
+        top: calc(var(--options-menu-height) * -1);
+    }
+
+    /* Filters and Stats */
+
     .list-block .list-unit .list-status-title {
         position: absolute;
         z-index: 1;
         top: calc(var(--options-menu-height) * -1);
-        right: var(--options-menu-height);
+        right: 0;
 
         .text {
             display: none;
@@ -412,16 +426,15 @@ body.ownlist #list-container {
 
             #show-stats-button,
             #advanced-options-button {
-                font-size: 0;
+                display: flex;
+                gap: var(--icon-text-gap);
+                line-height: var(--options-menu-height);
+                padding: 0 var(--page-padding);
 
                 &:before {
                     content: '';
-                    display: block;
-                    height: var(--options-menu-height);
-                    aspect-ratio: 1;
-                    padding: var(--page-padding);
+                    flex: 0 0 1rem;
                     background-color: var(--text-color);
-                    mask-origin: content-box;
                     mask-repeat: no-repeat;
                     mask-position: center;
                 }
@@ -429,10 +442,18 @@ body.ownlist #list-container {
                 &:hover {
                     background-color: rgba(255, 255, 255, .1);
                 }
+
+                .fa-solid {
+                    display: none
+                }
             }
 
-            #show-stats-button:before {
-                mask-image: var(--icon-stats);
+            #show-stats-button {
+                order: 1;
+
+                &:before {
+                    mask-image: var(--icon-stats);
+                }
             }
 
             #advanced-options-button:before {
@@ -444,7 +465,7 @@ body.ownlist #list-container {
     #status-menu.fixed + .list-block .list-unit .list-status-title {
         position: fixed;
         top: var(--header-height);
-        right: max(var(--options-menu-height), calc(50vw - var(--main-content-max-width) / 2 + var(--options-menu-height)));
+        right: max(0px, calc(50vw - var(--main-content-max-width) / 2));
     }
 }
 
@@ -532,15 +553,13 @@ body.ownlist #list-container .list-block .list-unit {
     aspect-ratio: 12 / 17;
 }
 
-#list-container .list-table>tbody:first-child {
-    display: none;
-}
+
 
 #list-container .list-table-data {
     display: grid;
     grid-template-columns: 1fr auto;
     height: fit-content;
-    padding: 1rem;
+    padding: var(--card-padding);
     width: 100%;
     background-color: rgba(0, 0, 0, .75);
 }
@@ -656,7 +675,8 @@ body.ownlist #list-container .list-block .list-unit {
             display: inline-block;
             vertical-align: top;
             background-color: var(--text-color);
-            mask: var(--icon-star) no-repeat;
+            mask-image: var(--icon-star);
+            mask-repeat: no-repeat;
             mask-position: center calc(50% - 1px);
             height: 1lh;
             width: 1rem;
@@ -668,6 +688,16 @@ body.ownlist #list-container .list-block .list-unit {
 
 /* Footer */
 
-#footer-block {
-    width: 100% !important;
+body.ownlist footer {
+    margin-top: calc(var(--spacing) * 3);
+    width: 100%;
+    background-color: #222222;
+
+    #footer-block {
+        text-align: center;
+        padding: var(--footer-padding-y) var(--page-padding);
+        width: 100%;
+        margin: 0 auto;
+        max-width: var(--main-content-max-width);
+    }
 }
