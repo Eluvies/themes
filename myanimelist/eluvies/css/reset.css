@@ -1122,3 +1122,11 @@ a {
     font-size: revert;
     text-align: revert;
 }
+
+.floatRightHeader {
+    float: revert;
+    font-weight: revert;
+    font-size: revert;
+    padding-right: revert;
+    margin-right: revert;
+}
