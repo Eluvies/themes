@@ -385,7 +385,6 @@ body.ownlist #list-container {
                         background-color: var(--text-color);
                         mask-image: var(--icon-search);
                         mask-repeat: no-repeat;
-                        mask-size: 100% auto;
                         mask-position: center;
                     }
 
