@@ -11,6 +11,7 @@
     --menu-item-height: 2.5rem;
     --line-height: round(1.5em, 2px);
     --icon-text-gap: 0.9ch;
+    --icon-size: calc(16 / 14 * 1em);
     --list-max-columns: 5;
     --card-min-width: 192px;
     --card-padding: calc(4 * var(--spacing));
@@ -28,6 +29,7 @@
     --font-size-md: 1rem;
     --font-size-sm: 0.875rem;
     --font-size-xs: 0.75rem;
+
 }
 
 body.ownlist .fa-solid {
@@ -108,19 +110,21 @@ body.ownlist {
         }
 
         .header-title {
+            display: flex;
+            align-items: center;
             font-size: 0;
-        }
 
-        .header-title:before {
-            content: '';
-            display: block;
-            height: 1.375rem;
-            aspect-ratio: 150 / 69;
-            background-color: white;
-            mask-image: var(--icon-mal);
-            mask-repeaT: no-repeat;
-            mask-size: 120%;
-            mask-position: center;
+            &:before {
+                content: '';
+                display: block;
+                height: 1.375rem;
+                aspect-ratio: 150 / 69;
+                background-color: white;
+                mask-image: var(--icon-mal);
+                mask-repeaT: no-repeat;
+                mask-size: 120%;
+                mask-position: center;
+            }
         }
 
         .header-menu {
@@ -259,7 +263,8 @@ body.ownlist #list-container .cover-block {
 /* Options menu */
 
 body.ownlist #list-container {
-    #show-stats-button, 
+
+    #show-stats-button,
     #advanced-options-button,
     #search-button {
         display: flex;
@@ -271,14 +276,14 @@ body.ownlist #list-container {
     .list-status-title {
         height: var(--options-menu-height);
     }
-    
+
     #search-button,
     #show-stats-button,
     #advanced-options-button {
         line-height: var(--options-menu-height);
-        
+
         /* Icons */
-        
+
         &:before {
             content: "";
             display: block;
@@ -328,12 +333,11 @@ body.ownlist #list-container {
             }
 
             &:after {
-                transform: scaleY(-1);
                 background-color: var(--text-color);
-                mask-image: var(--icon-chevron);
+                mask-image: var(--icon-chevron-down);
                 mask-repeat: no-repeat;
-                mask-size: 1rem;
-                mask-position: calc(100% + 3 / 16 * 1rem) center;
+                mask-size: var(--icon-size);
+                mask-position: center;
                 z-index: 1;
             }
 
@@ -354,7 +358,7 @@ body.ownlist #list-container {
             }
 
             &:has(.dropped.on) {
-                --active-status: : "Dropped";
+                --active-status: "Dropped";
             }
 
             &:has(.plantowatch.on) {
@@ -542,26 +546,48 @@ body.ownlist #list-container .list-block {
 
 /* Stats */
 
-body.ownlist #status-menu.fixed + .list-block .list-unit .list-stats {
+body.ownlist #status-menu.fixed+.list-block .list-unit .list-stats {
     position: fixed;
     top: calc(var(--header-height) + var(--options-menu-height));
     margin: 0 auto;
     left: 0;
     right: 0;
     z-index: 1;
-    padding: 1rem var(--page-padding);
+    padding-inline: var(--page-padding);
 }
 
 body.ownlist .list-unit .list-stats {
     display: none;
     width: min(100%, var(--main-content-max-width));
-    font-size: var(--font-size-xs);
     background-color: #222222;
+    padding-block: 1em;
 
     span:last-child {
         text-transform: lowercase;
-        color: #2E51A2;
-        float: right
+        --text-color: #2E51A2;
+        color: var(--text-color);
+        float: right;
+
+        .floatRightHeader {          
+            /**
+             * Chevron right default size = 16 x 6px;
+             */
+            position: relative;
+            display: flex;
+            gap: var(--icon-text-gap);
+
+            &:after {
+                content: '';
+                display: block;
+                height: var(--icon-size);
+                width: calc(var(--icon-size) * 6 / 16);
+                background-color: var(--text-color);
+                mask-image: var(--icon-chevron-right);
+                mask-repeat: no-repeat;
+                mask-position: left bottom;
+                z-index: 1;
+            }
+        }
     }
 }
 
