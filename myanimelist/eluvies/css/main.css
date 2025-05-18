@@ -9,7 +9,7 @@
     --header-height: 3rem;
     --options-menu-height: 3rem;
     --menu-item-height: 2.5rem;
-    --line-height: 1.5;
+    --line-height: round(1.5em, 2px);
     --icon-text-gap: 0.9ch;
     --list-max-columns: 5;
     --card-min-width: 192px;
@@ -22,6 +22,16 @@
     --dropdown-item-padding-x: calc(3 * var(--spacing));
     --dropdown-border-radius: 6px;
     --text-color: white;
+    --font-size-xxl: 3rem;
+    --font-size-xl: 2.25rem;
+    --font-size-lg: 1.5rem;
+    --font-size-md: 1rem;
+    --font-size-sm: 0.875rem;
+    --font-size-xs: 0.75rem;
+}
+
+body.ownlist .fa-solid {
+    display: none;
 }
 
 *,
@@ -44,6 +54,7 @@ body.ownlist {
     font-weight: 400;
     margin: 0 auto;
     background-color: #141414 !important;
+    line-height: var(--line-height);
 }
 
 a {
@@ -73,7 +84,7 @@ body.ownlist {
         width: 100%;
         max-width: var(--main-content-max-width);
         top: 0;
-        z-index: 2;
+        z-index: 3;
         height: var(--header-height);
         display: flex;
         align-items: center;
@@ -281,7 +292,7 @@ body.ownlist #list-container {
 
     #status-menu {
         position: relative;
-        z-index: 1;
+        z-index: 2;
         width: 100%;
         background-color: #222222;
         max-width: var(--main-content-max-width);
@@ -416,7 +427,7 @@ body.ownlist #list-container {
 
     .list-block .list-unit .list-status-title {
         position: absolute;
-        z-index: 1;
+        z-index: 2;
         top: calc(var(--options-menu-height) * -1);
         right: 0;
 
@@ -528,23 +539,32 @@ body.ownlist #list-container .list-block {
     position: relative;
 }
 
-/* List stats */
+/* Stats */
 
-body.ownlist #list-container #status-menu.fixed + .list-block .list-unit .list-stats {
+body.ownlist #status-menu.fixed + .list-block .list-unit .list-stats {
     position: fixed;
     top: calc(var(--header-height) + var(--options-menu-height));
-}
-
-body.ownlist #list-container .list-block .list-unit .list-stats {
-    position: absolute;
-    width: min(100%, var(--main-content-max-width));
-    z-index: 1;
+    margin: 0 auto;
     left: 0;
     right: 0;
-    margin: 0 auto;
-    padding: 0.5rem var(--page-padding);
-    background-color: #222222;
+    z-index: 1;
+    padding: 1rem var(--page-padding);
 }
+
+body.ownlist .list-unit .list-stats {
+    display: none;
+    width: min(100%, var(--main-content-max-width));
+    font-size: var(--font-size-xs);
+    background-color: #222222;
+
+    span:last-child {
+        text-transform: lowercase;
+        color: #2E51A2;
+        float: right
+    }
+}
+
+/* List */
 
 body.ownlist #list-container .list-block .list-unit {
     .list-table {
