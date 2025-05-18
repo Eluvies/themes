@@ -328,8 +328,9 @@ body.ownlist #list-container {
             }
 
             &:after {
+                transform: scaleY(-1);
                 background-color: var(--text-color);
-                mask-image: var(--icon-chevron-down);
+                mask-image: var(--icon);
                 mask-repeat: no-repeat;
                 mask-size: 1rem;
                 mask-position: calc(100% + 3 / 16 * 1rem) center;
