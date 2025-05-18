@@ -10,7 +10,7 @@
     --options-menu-height: 3rem;
     --menu-item-height: 2.5rem;
     --line-height: round(1.5em, 2px);
-    --icon-text-gap: 0.9ch;
+    --icon-text-gap: 1ch;
     --icon-size: calc(16 / 14 * 1em);
     --list-max-columns: 5;
     --card-min-width: 192px;
@@ -263,6 +263,7 @@ body.ownlist #list-container .cover-block {
 /* Options menu */
 
 body.ownlist #list-container {
+
     #show-stats-button,
     #advanced-options-button,
     #search-button {
@@ -281,37 +282,46 @@ body.ownlist #list-container {
     #advanced-options-button {
         line-height: var(--options-menu-height);
 
-        /* Icons */
-        
+        /** 
+         * Icons
+         * 
+         * 1. Get icon url
+         * 2. Get icon width
+         *    Icon width = icon size × aspect ratio
+         *    Aspect ratios:
+         *    - Search icon: 12:16
+         *    - Filter icon: 12:16
+         *    - Stats icon:  11:16
+         */
+
         &:before {
             content: "";
             display: block;
             background-color: var(--text-color);
+            width: var(--icon-width); 
             height: var(--options-menu-height);
             mask-repeat: no-repeat;
             mask-position: center;
+            mask-image: var(--icon-url);
+            mask-size: 100% auto;
         }
-    }
-    
-    /**
-     * Calculating icon width
-     * 
-     * Icon width = icon size × aspect ratio
-     * The search icon has a 12:16 width-to-height ratio
-     * The filter icon has a 12:16 width-to-height ratio
-     * The stats icon has a 11:16 width-to-height ratio
-     */
-    
-    #search-button:before {
-        width: calc(var(--icon-size) * 10 / 16);
-    }
-    
-    #show-stats-button {
-        width: calc(var(--icon-size) * 11 / 16);
-    }
-    
-    #advanced-options-button {
-        width: calc(var(--icon-size) * 12 / 16);
+        
+        /* 1 & 2 */
+        
+        &#search-button {
+            --icon-url: var(--icon-search);
+            --icon-width: calc(var(--icon-size) * 12 / 16);
+        }
+
+        &#advanced-options-button {
+            --icon-url: var(--icon-filter);
+            --icon-width: calc(var(--icon-size) * 12 / 16);
+        }
+
+        &#show-stats-button {
+            --icon-url: var(--icon-stats);
+            --icon-width: calc(var(--icon-size) * 11 / 16);
+        }
     }
 
     #status-menu {
@@ -330,7 +340,6 @@ body.ownlist #list-container {
         }
 
         .status-menu {
-            --active-status: "Status";
             --button-padding: 1rem;
             background-color: rgb(47, 47, 47);
             height: 0;
@@ -352,7 +361,7 @@ body.ownlist #list-container {
 
             &:before,
             &:after {
-                content: var(--active-status); /* 1 */
+                content: var(--current-status); /* 1 */
                 color: var(--text-color);
                 top: 0;
                 position: absolute;
@@ -372,27 +381,27 @@ body.ownlist #list-container {
             }
 
             &:has(.all_anime.on) {
-                --active-status: "All Anime";
+                --current-status: "All Anime";
             }
 
             &:has(.watching.on) {
-                --active-status: "Currently Watching";
+                --current-status: "Currently Watching";
             }
 
             &:has(.completed.on) {
-                --active-status: "Completed";
+                --current-status: "Completed";
             }
 
             &:has(.onhold.on) {
-                --active-status: "On Hold";
+                --current-status: "On Hold";
             }
 
             &:has(.dropped.on) {
-                --active-status: "Dropped";
+                --current-status: "Dropped";
             }
 
             &:has(.plantowatch.on) {
-                --active-status: "Plan to Watch";
+                --current-status: "Plan to Watch";
             }
 
             &:hover {
@@ -486,14 +495,6 @@ body.ownlist #list-container {
 
             #show-stats-button {
                 order: 1;
-
-                &:before {
-                    mask-image: var(--icon-stats);
-                }
-            }
-
-            #advanced-options-button:before {
-                mask-image: var(--icon-filter);
             }
         }
     }
